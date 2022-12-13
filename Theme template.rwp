@@ -1,0 +1,378 @@
+<Ruleset xmlns="http://tempuri.org/Ruleset.xsd">
+<Ruleset xmlns="http://tempuri.org/Ruleset.xsd">
+  <RulesetProperties>
+    <Name>Theme template</Name>
+    <CompilationType>Extension</CompilationType>
+    <Description />
+    <DisplayName />
+    <DisplayVersion />
+    <Author>Psicodelix</Author>
+    <Website>www.rulesetwizard.com</Website>
+    <Version>1</Version>
+    <Release>0</Release>
+    <RulesetWizardVersion>0.8.5</RulesetWizardVersion>
+    <RulesetList>CoreRPG</RulesetList>
+    <LoadOrder />
+    <Comments />
+    <Announcement />
+    <LogoFile />
+    <ImportRuleset>CoreRPG</ImportRuleset>
+    <AdvancedDevelopment>true</AdvancedDevelopment>
+    <GeneratePath />
+    <AnnouncementFont />
+    <AnnouncementIcon />
+    <Announcement2 />
+    <Announcement2Font />
+    <Announcement2Icon />
+    <Announcement3 />
+    <Announcement3Font />
+    <Announcement3Icon />
+    <ExcludeRSWScripts>false</ExcludeRSWScripts>
+    <CompileToFolder>false</CompileToFolder>
+    <DefaultEncoding>iso-8859-1</DefaultEncoding>
+  </RulesetProperties>
+</Ruleset>
+
+<DocumentElement xmlns="http://tempuri.org/Ruleset.xsd">
+  <Folders>
+    <ID>1</ID>
+    <ParentFolderID>0</ParentFolderID>
+    <Folder>graphics</Folder>
+  </Folders>
+  <Folders>
+    <ID>2</ID>
+    <ParentFolderID>1</ParentFolderID>
+    <Folder>buttons</Folder>
+  </Folders>
+  <Folders>
+    <ID>3</ID>
+    <ParentFolderID>1</ParentFolderID>
+    <Folder>fonts</Folder>
+  </Folders>
+  <Folders>
+    <ID>4</ID>
+    <ParentFolderID>1</ParentFolderID>
+    <Folder>frames</Folder>
+  </Folders>
+  <Folders>
+    <ID>5</ID>
+    <ParentFolderID>1</ParentFolderID>
+    <Folder>icons</Folder>
+  </Folders>
+  <Folders>
+    <ID>6</ID>
+    <ParentFolderID>1</ParentFolderID>
+    <Folder>sidebar</Folder>
+  </Folders>
+  <Folders>
+    <ID>7</ID>
+    <ParentFolderID>1</ParentFolderID>
+    <Folder>tabs</Folder>
+  </Folders>
+</DocumentElement>
+
+<DocumentElement xmlns="http://tempuri.org/Ruleset.xsd" />
+
+<DocumentElement xmlns="http://tempuri.org/Ruleset.xsd" />
+
+<DocumentElement xmlns="http://tempuri.org/Ruleset.xsd" />
+
+<DocumentElement xmlns="http://tempuri.org/Ruleset.xsd" />
+
+<DocumentElement xmlns="http://tempuri.org/Ruleset.xsd">
+  <Frames>
+    <FrameName>buttondown</FrameName>
+    <FolderID>4</FolderID>
+    <ImageFile>graphics\frames\buttondown.png</ImageFile>
+    <Definition>15,15,15,15</Definition>
+    <TopLeft />
+    <Top />
+    <TopRight />
+    <Left />
+    <Middle />
+    <Right />
+    <BottomLeft />
+    <Bottom />
+    <BottomRight />
+    <Decal />
+    <InsideOffset />
+  </Frames>
+  <Frames>
+    <FrameName>buttonup</FrameName>
+    <FolderID>4</FolderID>
+    <ImageFile>graphics\frames\buttonup.png</ImageFile>
+    <Definition>15,15,15,15</Definition>
+    <TopLeft />
+    <Top />
+    <TopRight />
+    <Left />
+    <Middle />
+    <Right />
+    <BottomLeft />
+    <Bottom />
+    <BottomRight />
+    <Decal />
+    <InsideOffset />
+  </Frames>
+  <Frames>
+    <FrameName>calendar</FrameName>
+    <FolderID>4</FolderID>
+    <ImageFile>graphics\frames\box1.png</ImageFile>
+    <Definition>30,30,30,30</Definition>
+    <TopLeft />
+    <Top />
+    <TopRight />
+    <Left />
+    <Middle />
+    <Right />
+    <BottomLeft />
+    <Bottom />
+    <BottomRight />
+    <Decal />
+    <InsideOffset />
+  </Frames>
+  <Frames>
+    <FrameName>charselect</FrameName>
+    <FolderID>4</FolderID>
+    <ImageFile>graphics\frames\box1.png</ImageFile>
+    <Definition>30,30,30,30</Definition>
+    <TopLeft />
+    <Top />
+    <TopRight />
+    <Left />
+    <Middle />
+    <Right />
+    <BottomLeft />
+    <Bottom />
+    <BottomRight />
+    <Decal />
+    <InsideOffset />
+  </Frames>
+  <Frames>
+    <FrameName>chatbox</FrameName>
+    <FolderID>4</FolderID>
+    <ImageFile>graphics\frames\chatbox.png</ImageFile>
+    <Definition>50,50,50,50</Definition>
+    <TopLeft />
+    <Top />
+    <TopRight />
+    <Left />
+    <Middle />
+    <Right />
+    <BottomLeft />
+    <Bottom />
+    <BottomRight />
+    <Decal />
+    <InsideOffset />
+  </Frames>
+  <Frames>
+    <FrameName>chatentry</FrameName>
+    <FolderID>4</FolderID>
+    <ImageFile>graphics\frames\chatentry.png</ImageFile>
+    <Definition>2,3,2,3</Definition>
+    <TopLeft />
+    <Top />
+    <TopRight />
+    <Left />
+    <Middle />
+    <Right />
+    <BottomLeft />
+    <Bottom />
+    <BottomRight />
+    <Decal />
+    <InsideOffset />
+  </Frames>
+  <Frames>
+    <FrameName>desktop</FrameName>
+    <FolderID>4</FolderID>
+    <ImageFile>graphics\frames\desktop.jpg</ImageFile>
+    <Definition>0,0,0,0</Definition>
+    <TopLeft />
+    <Top />
+    <TopRight />
+    <Left />
+    <Middle />
+    <Right />
+    <BottomLeft />
+    <Bottom />
+    <BottomRight />
+    <Decal />
+    <InsideOffset />
+  </Frames>
+  <Frames>
+    <FrameName>fielddark</FrameName>
+    <FolderID>4</FolderID>
+    <ImageFile>graphics\frames\fielddark.png</ImageFile>
+    <Definition>10,10,10,10</Definition>
+    <TopLeft />
+    <Top />
+    <TopRight />
+    <Left />
+    <Middle />
+    <Right />
+    <BottomLeft />
+    <Bottom />
+    <BottomRight />
+    <Decal />
+    <InsideOffset />
+  </Frames>
+  <Frames>
+    <FrameName>fieldlight</FrameName>
+    <FolderID>4</FolderID>
+    <ImageFile>graphics\frames\fielddark.png</ImageFile>
+    <Definition>10,10,10,10</Definition>
+    <TopLeft />
+    <Top />
+    <TopRight />
+    <Left />
+    <Middle />
+    <Right />
+    <BottomLeft />
+    <Bottom />
+    <BottomRight />
+    <Decal />
+    <InsideOffset />
+  </Frames>
+  <Frames>
+    <FrameName>groupbox</FrameName>
+    <FolderID>4</FolderID>
+    <ImageFile>graphics\frames\groupbox.png</ImageFile>
+    <Definition>16,16,16,16</Definition>
+    <TopLeft />
+    <Top />
+    <TopRight />
+    <Left />
+    <Middle />
+    <Right />
+    <BottomLeft />
+    <Bottom />
+    <BottomRight />
+    <Decal />
+    <InsideOffset />
+  </Frames>
+  <Frames>
+    <FrameName>partysheet</FrameName>
+    <FolderID>4</FolderID>
+    <ImageFile>graphics\frames\box1.png</ImageFile>
+    <Definition>30,30,30,30</Definition>
+    <TopLeft />
+    <Top />
+    <TopRight />
+    <Left />
+    <Middle />
+    <Right />
+    <BottomLeft />
+    <Bottom />
+    <BottomRight />
+    <Decal />
+    <InsideOffset />
+  </Frames>
+  <Frames>
+    <FrameName>recordsheet</FrameName>
+    <FolderID>4</FolderID>
+    <ImageFile>graphics\frames\box1.png</ImageFile>
+    <Definition>30,30,30,30</Definition>
+    <TopLeft />
+    <Top />
+    <TopRight />
+    <Left />
+    <Middle />
+    <Right />
+    <BottomLeft />
+    <Bottom />
+    <BottomRight />
+    <Decal />
+    <InsideOffset />
+  </Frames>
+  <Frames>
+    <FrameName>referencelist</FrameName>
+    <FolderID>4</FolderID>
+    <ImageFile>graphics\frames\box1.png</ImageFile>
+    <Definition>30,30,30,30</Definition>
+    <TopLeft />
+    <Top />
+    <TopRight />
+    <Left />
+    <Middle />
+    <Right />
+    <BottomLeft />
+    <Bottom />
+    <BottomRight />
+    <Decal />
+    <InsideOffset />
+  </Frames>
+  <Frames>
+    <FrameName>tokenbag</FrameName>
+    <FolderID>4</FolderID>
+    <ImageFile>graphics\frames\box1.png</ImageFile>
+    <Definition>30,30,30,30</Definition>
+    <TopLeft />
+    <Top />
+    <TopRight />
+    <Left />
+    <Middle />
+    <Right />
+    <BottomLeft />
+    <Bottom />
+    <BottomRight />
+    <Decal />
+    <InsideOffset />
+  </Frames>
+  <Frames>
+    <FrameName>utilitybox</FrameName>
+    <FolderID>4</FolderID>
+    <ImageFile>graphics\frames\box1.png</ImageFile>
+    <Definition>30,30,30,30</Definition>
+    <TopLeft />
+    <Top />
+    <TopRight />
+    <Left />
+    <Middle />
+    <Right />
+    <BottomLeft />
+    <Bottom />
+    <BottomRight />
+    <Decal />
+    <InsideOffset />
+  </Frames>
+  <Frames>
+    <FrameName>utilitybox3</FrameName>
+    <FolderID>4</FolderID>
+    <ImageFile>graphics\frames\box1.png</ImageFile>
+    <Definition>30,30,30,30</Definition>
+    <TopLeft />
+    <Top />
+    <TopRight />
+    <Left />
+    <Middle />
+    <Right />
+    <BottomLeft />
+    <Bottom />
+    <BottomRight />
+    <Decal />
+    <InsideOffset />
+  </Frames>
+  <Frames>
+    <FrameName>windowtitle</FrameName>
+    <FolderID>4</FolderID>
+    <ImageFile>graphics\frames\windowtitle.png</ImageFile>
+    <Definition>50,0,50,0</Definition>
+    <TopLeft />
+    <Top />
+    <TopRight />
+    <Left />
+    <Middle />
+    <Right />
+    <BottomLeft />
+    <Bottom />
+    <BottomRight />
+    <Decal />
+    <InsideOffset />
+  </Frames>
+</DocumentElement>
+
+<DocumentElement xmlns="http://tempuri.org/Ruleset.xsd" />
+
+<DocumentElement xmlns="http://tempuri.org/Ruleset.xsd" />
+
+</Ruleset>
