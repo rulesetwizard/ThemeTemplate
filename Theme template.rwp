@@ -81,10 +81,27 @@
 
 <DocumentElement xmlns="http://tempuri.org/Ruleset.xsd">
   <Frames>
+    <FrameName>border</FrameName>
+    <FolderID>4</FolderID>
+    <ImageFile>C:\Desarrollo\Rulesets\RulesetTQ\skin\frames\border.png</ImageFile>
+    <Definition>1,1,1,1</Definition>
+    <TopLeft />
+    <Top />
+    <TopRight />
+    <Left />
+    <Middle />
+    <Right />
+    <BottomLeft />
+    <Bottom />
+    <BottomRight />
+    <Decal />
+    <InsideOffset />
+  </Frames>
+  <Frames>
     <FrameName>buttondown</FrameName>
     <FolderID>4</FolderID>
     <ImageFile>graphics\frames\buttondown.png</ImageFile>
-    <Definition>15,15,15,15</Definition>
+    <Definition>10,10,10,10</Definition>
     <TopLeft />
     <Top />
     <TopRight />
@@ -101,7 +118,7 @@
     <FrameName>buttonup</FrameName>
     <FolderID>4</FolderID>
     <ImageFile>graphics\frames\buttonup.png</ImageFile>
-    <Definition>15,15,15,15</Definition>
+    <Definition>10,10,10,10</Definition>
     <TopLeft />
     <Top />
     <TopRight />
@@ -136,6 +153,23 @@
     <FolderID>4</FolderID>
     <ImageFile>graphics\frames\box1.png</ImageFile>
     <Definition>30,30,30,30</Definition>
+    <TopLeft />
+    <Top />
+    <TopRight />
+    <Left />
+    <Middle />
+    <Right />
+    <BottomLeft />
+    <Bottom />
+    <BottomRight />
+    <Decal />
+    <InsideOffset />
+  </Frames>
+  <Frames>
+    <FrameName>charselectentry</FrameName>
+    <FolderID>4</FolderID>
+    <ImageFile>graphics\frames\fielddark.png</ImageFile>
+    <Definition>10,10,10,10</Definition>
     <TopLeft />
     <Top />
     <TopRight />
@@ -186,6 +220,40 @@
     <FrameName>desktop</FrameName>
     <FolderID>4</FolderID>
     <ImageFile>graphics\frames\desktop.jpg</ImageFile>
+    <Definition>0,0,0,0</Definition>
+    <TopLeft />
+    <Top />
+    <TopRight />
+    <Left />
+    <Middle />
+    <Right />
+    <BottomLeft />
+    <Bottom />
+    <BottomRight />
+    <Decal />
+    <InsideOffset />
+  </Frames>
+  <Frames>
+    <FrameName>dicetower_drop</FrameName>
+    <FolderID>4</FolderID>
+    <ImageFile>graphics\frames\dicetower_drop.png</ImageFile>
+    <Definition>0,0,0,0</Definition>
+    <TopLeft />
+    <Top />
+    <TopRight />
+    <Left />
+    <Middle />
+    <Right />
+    <BottomLeft />
+    <Bottom />
+    <BottomRight />
+    <Decal />
+    <InsideOffset />
+  </Frames>
+  <Frames>
+    <FrameName>dicetower_normal</FrameName>
+    <FolderID>4</FolderID>
+    <ImageFile>graphics\frames\dicetower_normal.png</ImageFile>
     <Definition>0,0,0,0</Definition>
     <TopLeft />
     <Top />
@@ -251,6 +319,40 @@
     <InsideOffset />
   </Frames>
   <Frames>
+    <FrameName>imagebox</FrameName>
+    <FolderID>4</FolderID>
+    <ImageFile>graphics\frames\box1.png</ImageFile>
+    <Definition>30,30,30,30</Definition>
+    <TopLeft />
+    <Top />
+    <TopRight />
+    <Left />
+    <Middle />
+    <Right />
+    <BottomLeft />
+    <Bottom />
+    <BottomRight />
+    <Decal />
+    <InsideOffset />
+  </Frames>
+  <Frames>
+    <FrameName>imagebox_header</FrameName>
+    <FolderID>4</FolderID>
+    <ImageFile>graphics\frames\blank.png</ImageFile>
+    <Definition>0,0,0,0</Definition>
+    <TopLeft />
+    <Top />
+    <TopRight />
+    <Left />
+    <Middle />
+    <Right />
+    <BottomLeft />
+    <Bottom />
+    <BottomRight />
+    <Decal />
+    <InsideOffset />
+  </Frames>
+  <Frames>
     <FrameName>partysheet</FrameName>
     <FolderID>4</FolderID>
     <ImageFile>graphics\frames\box1.png</ImageFile>
@@ -302,10 +404,129 @@
     <InsideOffset />
   </Frames>
   <Frames>
+    <FrameName>scrollbar_base</FrameName>
+    <FolderID>4</FolderID>
+    <ImageFile>graphics\frames\scrollbar_base.png</ImageFile>
+    <Definition>0,0,0,0</Definition>
+    <TopLeft />
+    <Top>0,0,20,14</Top>
+    <TopRight />
+    <Left />
+    <Middle>22,0,20,62</Middle>
+    <Right />
+    <BottomLeft />
+    <Bottom>0,48,20,14</Bottom>
+    <BottomRight />
+    <Decal />
+    <InsideOffset />
+  </Frames>
+  <Frames>
+    <FrameName>scrollbutton_normal</FrameName>
+    <FolderID>4</FolderID>
+    <ImageFile>graphics\frames\scrollbutton_normal.png</ImageFile>
+    <Definition>0,0,0,0</Definition>
+    <TopLeft />
+    <Top>0,0,20,16</Top>
+    <TopRight />
+    <Left />
+    <Middle>0,16,20,8</Middle>
+    <Right />
+    <BottomLeft />
+    <Bottom>0,24,20,16</Bottom>
+    <BottomRight />
+    <Decal />
+    <InsideOffset />
+  </Frames>
+  <Frames>
+    <FrameName>storybox</FrameName>
+    <FolderID>4</FolderID>
+    <ImageFile>graphics\frames\box1.png</ImageFile>
+    <Definition>30,30,30,30</Definition>
+    <TopLeft />
+    <Top />
+    <TopRight />
+    <Left />
+    <Middle />
+    <Right />
+    <BottomLeft />
+    <Bottom />
+    <BottomRight />
+    <Decal />
+    <InsideOffset />
+  </Frames>
+  <Frames>
+    <FrameName>tabs</FrameName>
+    <FolderID>7</FolderID>
+    <ImageFile>graphics\tabs\tabs.png</ImageFile>
+    <Definition>0,0,0,0</Definition>
+    <TopLeft>0,0,18,73</TopLeft>
+    <Top />
+    <TopRight />
+    <Left>0,73,18,335</Left>
+    <Middle />
+    <Right />
+    <BottomLeft>0,408,18,86</BottomLeft>
+    <Bottom />
+    <BottomRight />
+    <Decal />
+    <InsideOffset />
+  </Frames>
+  <Frames>
+    <FrameName>tabs_h</FrameName>
+    <FolderID>7</FolderID>
+    <ImageFile>graphics\tabs\tabs_h.png</ImageFile>
+    <Definition>0,0,0,0</Definition>
+    <TopLeft>0,0,75,18</TopLeft>
+    <Top>75,0,335,18</Top>
+    <TopRight>410,0,84,18</TopRight>
+    <Left />
+    <Middle />
+    <Right />
+    <BottomLeft />
+    <Bottom />
+    <BottomRight />
+    <Decal />
+    <InsideOffset />
+  </Frames>
+  <Frames>
     <FrameName>tokenbag</FrameName>
     <FolderID>4</FolderID>
     <ImageFile>graphics\frames\box1.png</ImageFile>
     <Definition>30,30,30,30</Definition>
+    <TopLeft />
+    <Top />
+    <TopRight />
+    <Left />
+    <Middle />
+    <Right />
+    <BottomLeft />
+    <Bottom />
+    <BottomRight />
+    <Decal />
+    <InsideOffset />
+  </Frames>
+  <Frames>
+    <FrameName>tokenbagasset</FrameName>
+    <FolderID>4</FolderID>
+    <ImageFile>graphics\frames\fielddark.png</ImageFile>
+    <Definition>10,10,10,10</Definition>
+    <TopLeft />
+    <Top />
+    <TopRight />
+    <Left />
+    <Middle />
+    <Right />
+    <BottomLeft />
+    <Bottom />
+    <BottomRight />
+    <Decal />
+    <InsideOffset />
+  </Frames>
+  <Frames>
+    <FrameName>tooltipbox</FrameName>
+    <FolderID>4</FolderID>
+    <ImageFile>graphics\frames\tooltipbox.png</ImageFile>
+    <Definition>6,4,9,7</Definition>
     <TopLeft />
     <Top />
     <TopRight />
@@ -371,7 +592,178 @@
   </Frames>
 </DocumentElement>
 
-<DocumentElement xmlns="http://tempuri.org/Ruleset.xsd" />
+<DocumentElement xmlns="http://tempuri.org/Ruleset.xsd">
+  <Icons>
+    <IconName>arrowleft</IconName>
+    <FolderID>2</FolderID>
+    <IconFile>graphics\buttons\arrowleft.png</IconFile>
+  </Icons>
+  <Icons>
+    <IconName>button_add</IconName>
+    <FolderID>2</FolderID>
+    <IconFile>graphics\buttons\button_add.png</IconFile>
+  </Icons>
+  <Icons>
+    <IconName>button_add_down</IconName>
+    <FolderID>2</FolderID>
+    <IconFile>graphics\buttons\button_add_down.png</IconFile>
+  </Icons>
+  <Icons>
+    <IconName>button_arrowdown</IconName>
+    <FolderID>2</FolderID>
+    <IconFile>graphics\buttons\button_arrowdown.png</IconFile>
+  </Icons>
+  <Icons>
+    <IconName>button_close</IconName>
+    <FolderID>2</FolderID>
+    <IconFile>graphics\buttons\button_close.png</IconFile>
+  </Icons>
+  <Icons>
+    <IconName>button_close_down</IconName>
+    <FolderID>2</FolderID>
+    <IconFile>graphics\buttons\button_close_down.png</IconFile>
+  </Icons>
+  <Icons>
+    <IconName>button_close_hover</IconName>
+    <FolderID>2</FolderID>
+    <IconFile>graphics\buttons\button_close_hover.png</IconFile>
+  </Icons>
+  <Icons>
+    <IconName>button_ctnextactor</IconName>
+    <FolderID>2</FolderID>
+    <IconFile>graphics\buttons\button_ctnextactor.png</IconFile>
+  </Icons>
+  <Icons>
+    <IconName>button_ctnextactor_down</IconName>
+    <FolderID>2</FolderID>
+    <IconFile>graphics\buttons\button_ctnextactor_down.png</IconFile>
+  </Icons>
+  <Icons>
+    <IconName>button_ctnextround</IconName>
+    <FolderID>2</FolderID>
+    <IconFile>graphics\buttons\button_ctnextround.png</IconFile>
+  </Icons>
+  <Icons>
+    <IconName>button_ctnextround_down</IconName>
+    <FolderID>2</FolderID>
+    <IconFile>graphics\buttons\button_ctnextround_down.png</IconFile>
+  </Icons>
+  <Icons>
+    <IconName>button_edit</IconName>
+    <FolderID>2</FolderID>
+    <IconFile>graphics\buttons\button_edit.png</IconFile>
+  </Icons>
+  <Icons>
+    <IconName>button_edit_down</IconName>
+    <FolderID>2</FolderID>
+    <IconFile>graphics\buttons\button_edit_down.png</IconFile>
+  </Icons>
+  <Icons>
+    <IconName>button_help</IconName>
+    <FolderID>2</FolderID>
+    <IconFile>graphics\buttons\button_help.png</IconFile>
+  </Icons>
+  <Icons>
+    <IconName>button_help_down</IconName>
+    <FolderID>2</FolderID>
+    <IconFile>graphics\buttons\button_help_down.png</IconFile>
+  </Icons>
+  <Icons>
+    <IconName>button_help_hover</IconName>
+    <FolderID>2</FolderID>
+    <IconFile>graphics\buttons\button_help_hover.png</IconFile>
+  </Icons>
+  <Icons>
+    <IconName>button_link</IconName>
+    <FolderID>2</FolderID>
+    <IconFile>graphics\buttons\button_link.png</IconFile>
+  </Icons>
+  <Icons>
+    <IconName>button_link_down</IconName>
+    <FolderID>2</FolderID>
+    <IconFile>graphics\buttons\button_link_down.png</IconFile>
+  </Icons>
+  <Icons>
+    <IconName>button_sizedown</IconName>
+    <FolderID>2</FolderID>
+    <IconFile>graphics\buttons\button_sizedown.png</IconFile>
+  </Icons>
+  <Icons>
+    <IconName>button_sizedown_down</IconName>
+    <FolderID>2</FolderID>
+    <IconFile>graphics\buttons\button_sizedown_down.png</IconFile>
+  </Icons>
+  <Icons>
+    <IconName>button_sizedown_hover</IconName>
+    <FolderID>2</FolderID>
+    <IconFile>graphics\buttons\button_sizedown_hover.png</IconFile>
+  </Icons>
+  <Icons>
+    <IconName>button_sizeup</IconName>
+    <FolderID>2</FolderID>
+    <IconFile>graphics\buttons\button_sizeup.png</IconFile>
+  </Icons>
+  <Icons>
+    <IconName>button_sizeup_down</IconName>
+    <FolderID>2</FolderID>
+    <IconFile>graphics\buttons\button_sizeup_down.png</IconFile>
+  </Icons>
+  <Icons>
+    <IconName>button_sizeup_hover</IconName>
+    <FolderID>2</FolderID>
+    <IconFile>graphics\buttons\button_sizeup_hover.png</IconFile>
+  </Icons>
+  <Icons>
+    <IconName>charlist_base</IconName>
+    <FolderID>5</FolderID>
+    <IconFile>graphics\icons\charlist_base.png</IconFile>
+  </Icons>
+  <Icons>
+    <IconName>portrait_gm_token</IconName>
+    <FolderID>5</FolderID>
+    <IconFile>graphics\icons\portrait_gm_token.png</IconFile>
+  </Icons>
+  <Icons>
+    <IconName>roll_attack</IconName>
+    <FolderID>5</FolderID>
+    <IconFile>graphics\icons\roll_attack.png</IconFile>
+  </Icons>
+  <Icons>
+    <IconName>roll_attack_crit</IconName>
+    <FolderID>5</FolderID>
+    <IconFile>graphics\icons\roll_attack_crit.png</IconFile>
+  </Icons>
+  <Icons>
+    <IconName>roll_attack_crit_miss</IconName>
+    <FolderID>5</FolderID>
+    <IconFile>graphics\icons\roll_attack_crit_miss.png</IconFile>
+  </Icons>
+  <Icons>
+    <IconName>roll_attack_hit</IconName>
+    <FolderID>5</FolderID>
+    <IconFile>graphics\icons\roll_attack_hit.png</IconFile>
+  </Icons>
+  <Icons>
+    <IconName>roll_attack_miss</IconName>
+    <FolderID>5</FolderID>
+    <IconFile>graphics\icons\roll_attack_miss.png</IconFile>
+  </Icons>
+  <Icons>
+    <IconName>roll_damage</IconName>
+    <FolderID>5</FolderID>
+    <IconFile>graphics\icons\roll_damage.png</IconFile>
+  </Icons>
+  <Icons>
+    <IconName>tabtop</IconName>
+    <FolderID>7</FolderID>
+    <IconFile>graphics\tabs\tabtop.png</IconFile>
+  </Icons>
+  <Icons>
+    <IconName>tabtop_h</IconName>
+    <FolderID>7</FolderID>
+    <IconFile>graphics\tabs\tabtop_h.png</IconFile>
+  </Icons>
+</DocumentElement>
 
 <DocumentElement xmlns="http://tempuri.org/Ruleset.xsd" />
 
