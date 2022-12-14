@@ -217,6 +217,159 @@
     <InsideOffset />
   </Frames>
   <Frames>
+    <FrameName>ctbox</FrameName>
+    <FolderID>4</FolderID>
+    <ImageFile>graphics\frames\ctbox.png</ImageFile>
+    <Definition>30,60,30,80</Definition>
+    <TopLeft />
+    <Top />
+    <TopRight />
+    <Left />
+    <Middle />
+    <Right />
+    <BottomLeft />
+    <Bottom />
+    <BottomRight />
+    <Decal />
+    <InsideOffset />
+  </Frames>
+  <Frames>
+    <FrameName>ctentrybox</FrameName>
+    <FolderID>4</FolderID>
+    <ImageFile>graphics\frames\ctentrybox.png</ImageFile>
+    <Definition>35,5,5,5</Definition>
+    <TopLeft />
+    <Top />
+    <TopRight />
+    <Left />
+    <Middle />
+    <Right />
+    <BottomLeft />
+    <Bottom />
+    <BottomRight />
+    <Decal />
+    <InsideOffset />
+  </Frames>
+  <Frames>
+    <FrameName>ctentrybox_active</FrameName>
+    <FolderID>4</FolderID>
+    <ImageFile>graphics\frames\ctentrybox_active.png</ImageFile>
+    <Definition>35,7,7,7</Definition>
+    <TopLeft />
+    <Top />
+    <TopRight />
+    <Left />
+    <Middle />
+    <Right />
+    <BottomLeft />
+    <Bottom />
+    <BottomRight />
+    <Decal />
+    <InsideOffset />
+  </Frames>
+  <Frames>
+    <FrameName>ctentrybox_foe</FrameName>
+    <FolderID>4</FolderID>
+    <ImageFile>graphics\frames\ctentrybox_foe.png</ImageFile>
+    <Definition>35,5,5,5</Definition>
+    <TopLeft />
+    <Top />
+    <TopRight />
+    <Left />
+    <Middle />
+    <Right />
+    <BottomLeft />
+    <Bottom />
+    <BottomRight />
+    <Decal />
+    <InsideOffset />
+  </Frames>
+  <Frames>
+    <FrameName>ctentrybox_foe_active</FrameName>
+    <FolderID>4</FolderID>
+    <ImageFile>graphics\frames\ctentrybox_foe_active.png</ImageFile>
+    <Definition>35,7,7,7</Definition>
+    <TopLeft />
+    <Top />
+    <TopRight />
+    <Left />
+    <Middle />
+    <Right />
+    <BottomLeft />
+    <Bottom />
+    <BottomRight />
+    <Decal />
+    <InsideOffset />
+  </Frames>
+  <Frames>
+    <FrameName>ctentrybox_friend</FrameName>
+    <FolderID>4</FolderID>
+    <ImageFile>graphics\frames\ctentrybox_friend.png</ImageFile>
+    <Definition>35,5,5,5</Definition>
+    <TopLeft />
+    <Top />
+    <TopRight />
+    <Left />
+    <Middle />
+    <Right />
+    <BottomLeft />
+    <Bottom />
+    <BottomRight />
+    <Decal />
+    <InsideOffset />
+  </Frames>
+  <Frames>
+    <FrameName>ctentrybox_friend_active</FrameName>
+    <FolderID>4</FolderID>
+    <ImageFile>graphics\frames\ctentrybox_friend_active.png</ImageFile>
+    <Definition>35,7,7,7</Definition>
+    <TopLeft />
+    <Top />
+    <TopRight />
+    <Left />
+    <Middle />
+    <Right />
+    <BottomLeft />
+    <Bottom />
+    <BottomRight />
+    <Decal />
+    <InsideOffset />
+  </Frames>
+  <Frames>
+    <FrameName>ctentrybox_neutral</FrameName>
+    <FolderID>4</FolderID>
+    <ImageFile>graphics\frames\ctentrybox_neutral.png</ImageFile>
+    <Definition>35,5,5,5</Definition>
+    <TopLeft />
+    <Top />
+    <TopRight />
+    <Left />
+    <Middle />
+    <Right />
+    <BottomLeft />
+    <Bottom />
+    <BottomRight />
+    <Decal />
+    <InsideOffset />
+  </Frames>
+  <Frames>
+    <FrameName>ctentrybox_neutral_active</FrameName>
+    <FolderID>4</FolderID>
+    <ImageFile>graphics\frames\ctentrybox_neutral_active.png</ImageFile>
+    <Definition>35,7,7,7</Definition>
+    <TopLeft />
+    <Top />
+    <TopRight />
+    <Left />
+    <Middle />
+    <Right />
+    <BottomLeft />
+    <Bottom />
+    <BottomRight />
+    <Decal />
+    <InsideOffset />
+  </Frames>
+  <Frames>
     <FrameName>desktop</FrameName>
     <FolderID>4</FolderID>
     <ImageFile>graphics\frames\desktop.jpg</ImageFile>
