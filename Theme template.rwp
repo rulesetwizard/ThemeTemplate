@@ -10,7 +10,7 @@
     <Website>www.rulesetwizard.com</Website>
     <Version>1</Version>
     <Release>0</Release>
-    <RulesetWizardVersion>0.8.5</RulesetWizardVersion>
+    <RulesetWizardVersion>0.8.7</RulesetWizardVersion>
     <RulesetList>CoreRPG</RulesetList>
     <LoadOrder />
     <Comments />
@@ -19,6 +19,7 @@
     <ImportRuleset>CoreRPG</ImportRuleset>
     <AdvancedDevelopment>true</AdvancedDevelopment>
     <GeneratePath />
+    <UseAutoPath>true</UseAutoPath>
     <AnnouncementFont />
     <AnnouncementIcon />
     <Announcement2 />
@@ -170,6 +171,23 @@
     <FolderID>4</FolderID>
     <ImageFile>graphics\frames\fielddark.png</ImageFile>
     <Definition>10,10,10,10</Definition>
+    <TopLeft />
+    <Top />
+    <TopRight />
+    <Left />
+    <Middle />
+    <Right />
+    <BottomLeft />
+    <Bottom />
+    <BottomRight />
+    <Decal />
+    <InsideOffset />
+  </Frames>
+  <Frames>
+    <FrameName>charsheet</FrameName>
+    <FolderID>4</FolderID>
+    <ImageFile>graphics\frames\box1.png</ImageFile>
+    <Definition>30,30,30,30</Definition>
     <TopLeft />
     <Top />
     <TopRight />
@@ -591,6 +609,74 @@
     <InsideOffset />
   </Frames>
   <Frames>
+    <FrameName>shortcuts</FrameName>
+    <FolderID>4</FolderID>
+    <ImageFile>graphics\frames\shortcuts.png</ImageFile>
+    <Definition>15,5,5,5</Definition>
+    <TopLeft />
+    <Top />
+    <TopRight />
+    <Left />
+    <Middle />
+    <Right />
+    <BottomLeft />
+    <Bottom />
+    <BottomRight />
+    <Decal />
+    <InsideOffset />
+  </Frames>
+  <Frames>
+    <FrameName>sidebar_dock_category</FrameName>
+    <FolderID>4</FolderID>
+    <ImageFile>graphics\frames\sidebar_dock_category.png</ImageFile>
+    <Definition>10,10,10,10</Definition>
+    <TopLeft />
+    <Top />
+    <TopRight />
+    <Left />
+    <Middle />
+    <Right />
+    <BottomLeft />
+    <Bottom />
+    <BottomRight />
+    <Decal />
+    <InsideOffset />
+  </Frames>
+  <Frames>
+    <FrameName>sidebar_dock_entry</FrameName>
+    <FolderID>4</FolderID>
+    <ImageFile>graphics\frames\sidebar_dock_entry.png</ImageFile>
+    <Definition>10,10,10,10</Definition>
+    <TopLeft />
+    <Top />
+    <TopRight />
+    <Left />
+    <Middle />
+    <Right />
+    <BottomLeft />
+    <Bottom />
+    <BottomRight />
+    <Decal />
+    <InsideOffset />
+  </Frames>
+  <Frames>
+    <FrameName>sidebar_dock_entry_icon</FrameName>
+    <FolderID>4</FolderID>
+    <ImageFile>graphics\frames\sidebar_dock_entry_icon.png</ImageFile>
+    <Definition>10,10,10,10</Definition>
+    <TopLeft />
+    <Top />
+    <TopRight />
+    <Left />
+    <Middle />
+    <Right />
+    <BottomLeft />
+    <Bottom />
+    <BottomRight />
+    <Decal />
+    <InsideOffset />
+  </Frames>
+  <Frames>
     <FrameName>storybox</FrameName>
     <FolderID>4</FolderID>
     <ImageFile>graphics\frames\box1.png</ImageFile>
@@ -915,6 +1001,11 @@
     <IconName>tabtop_h</IconName>
     <FolderID>7</FolderID>
     <IconFile>graphics\tabs\tabtop_h.png</IconFile>
+  </Icons>
+  <Icons>
+    <IconName>token_empty</IconName>
+    <FolderID>5</FolderID>
+    <IconFile>graphics\icons\token_empty.png</IconFile>
   </Icons>
 </DocumentElement>
 
