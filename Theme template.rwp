@@ -230,6 +230,23 @@
     <InsideOffset />
   </Frames>
   <Frames>
+    <FrameName>ct_groupbox</FrameName>
+    <FolderID>3</FolderID>
+    <ImageFile>graphics\frames\fielddark.png</ImageFile>
+    <Definition>10,10,10,10</Definition>
+    <TopLeft />
+    <Top />
+    <TopRight />
+    <Left />
+    <Middle />
+    <Right />
+    <BottomLeft />
+    <Bottom />
+    <BottomRight />
+    <Decal />
+    <InsideOffset />
+  </Frames>
+  <Frames>
     <FrameName>ctbox</FrameName>
     <FolderID>3</FolderID>
     <ImageFile>graphics\frames\ctbox.png</ImageFile>
@@ -451,6 +468,23 @@
     <InsideOffset />
   </Frames>
   <Frames>
+    <FrameName>fielddice</FrameName>
+    <FolderID>3</FolderID>
+    <ImageFile>graphics\frames\fielddice.png</ImageFile>
+    <Definition>0,0,0,0</Definition>
+    <TopLeft>0,0,12,12</TopLeft>
+    <Top>12,0,200,12</Top>
+    <TopRight>212,0,12,12</TopRight>
+    <Left>0,12,12,187</Left>
+    <Middle>12,12,200,187</Middle>
+    <Right>212,12,12,187</Right>
+    <BottomLeft>0,199,12,12</BottomLeft>
+    <Bottom>12,199,200,12</Bottom>
+    <BottomRight>212,199,12,12</BottomRight>
+    <Decal>175,212,49,16</Decal>
+    <InsideOffset />
+  </Frames>
+  <Frames>
     <FrameName>fieldlight</FrameName>
     <FolderID>3</FolderID>
     <ImageFile>graphics\frames\fielddark.png</ImageFile>
@@ -554,6 +588,23 @@
   </Frames>
   <Frames>
     <FrameName>referencelist</FrameName>
+    <FolderID>3</FolderID>
+    <ImageFile>graphics\frames\box1.png</ImageFile>
+    <Definition>30,30,30,30</Definition>
+    <TopLeft />
+    <Top />
+    <TopRight />
+    <Left />
+    <Middle />
+    <Right />
+    <BottomLeft />
+    <Bottom />
+    <BottomRight />
+    <Decal />
+    <InsideOffset />
+  </Frames>
+  <Frames>
+    <FrameName>referencepage</FrameName>
     <FolderID>3</FolderID>
     <ImageFile>graphics\frames\box1.png</ImageFile>
     <Definition>30,30,30,30</Definition>
@@ -918,6 +969,26 @@
     <IconFile>graphics\buttons\button_link_down.png</IconFile>
   </Icons>
   <Icons>
+    <IconName>button_menu</IconName>
+    <FolderID>2</FolderID>
+    <IconFile>graphics\buttons\button_menu.png</IconFile>
+  </Icons>
+  <Icons>
+    <IconName>button_menu_down</IconName>
+    <FolderID>2</FolderID>
+    <IconFile>graphics\buttons\button_menu_down.png</IconFile>
+  </Icons>
+  <Icons>
+    <IconName>button_roll</IconName>
+    <FolderID>2</FolderID>
+    <IconFile>graphics\buttons\button_roll.png</IconFile>
+  </Icons>
+  <Icons>
+    <IconName>button_roll_down</IconName>
+    <FolderID>2</FolderID>
+    <IconFile>graphics\buttons\button_roll_down.png</IconFile>
+  </Icons>
+  <Icons>
     <IconName>button_sizedown</IconName>
     <FolderID>2</FolderID>
     <IconFile>graphics\buttons\button_sizedown.png</IconFile>
@@ -951,6 +1022,16 @@
     <IconName>charlist_base</IconName>
     <FolderID>4</FolderID>
     <IconFile>graphics\icons\charlist_base.png</IconFile>
+  </Icons>
+  <Icons>
+    <IconName>ct_active</IconName>
+    <FolderID>4</FolderID>
+    <IconFile>graphics\icons\ct_active.png</IconFile>
+  </Icons>
+  <Icons>
+    <IconName>field_rollable</IconName>
+    <FolderID>4</FolderID>
+    <IconFile>graphics\buttons\field_rollable.png</IconFile>
   </Icons>
   <Icons>
     <IconName>portrait_gm_token</IconName>
