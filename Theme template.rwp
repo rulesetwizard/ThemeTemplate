@@ -989,6 +989,16 @@
     <IconFile>graphics\buttons\button_roll_down.png</IconFile>
   </Icons>
   <Icons>
+    <IconName>button_scrollerpan</IconName>
+    <FolderID>2</FolderID>
+    <IconFile>graphics\buttons\button_scrollerpan.png</IconFile>
+  </Icons>
+  <Icons>
+    <IconName>button_scrollerpan_down</IconName>
+    <FolderID>2</FolderID>
+    <IconFile>graphics\buttons\button_scrollerpan_down.png</IconFile>
+  </Icons>
+  <Icons>
     <IconName>button_sizedown</IconName>
     <FolderID>2</FolderID>
     <IconFile>graphics\buttons\button_sizedown.png</IconFile>
