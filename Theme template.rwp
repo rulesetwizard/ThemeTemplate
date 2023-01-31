@@ -11,7 +11,7 @@
     <Version>1</Version>
     <Release>0</Release>
     <RulesetWizardVersion>0.8.7</RulesetWizardVersion>
-    <RulesetList>CoreRPG</RulesetList>
+    <RulesetList />
     <LoadOrder />
     <Comments />
     <Announcement />
