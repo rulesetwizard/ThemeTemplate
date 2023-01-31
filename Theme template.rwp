@@ -674,7 +674,7 @@
   <Frames>
     <FrameName>sidebar_dock_category</FrameName>
     <FolderID>5</FolderID>
-    <ImageFile>graphics\frames\sidebar_dock_category.png</ImageFile>
+    <ImageFile>graphics\sidebar\sidebar_dock_category.png</ImageFile>
     <Definition>10,10,10,10</Definition>
     <TopLeft />
     <Top />
@@ -691,7 +691,7 @@
   <Frames>
     <FrameName>sidebar_dock_entry</FrameName>
     <FolderID>5</FolderID>
-    <ImageFile>graphics\frames\sidebar_dock_entry.png</ImageFile>
+    <ImageFile>graphics\sidebar\sidebar_dock_entry.png</ImageFile>
     <Definition>10,10,10,10</Definition>
     <TopLeft />
     <Top />
@@ -708,7 +708,7 @@
   <Frames>
     <FrameName>sidebar_dock_entry_icon</FrameName>
     <FolderID>5</FolderID>
-    <ImageFile>graphics\frames\sidebar_dock_entry_icon.png</ImageFile>
+    <ImageFile>graphics\sidebar\sidebar_dock_entry_icon.png</ImageFile>
     <Definition>10,10,10,10</Definition>
     <TopLeft />
     <Top />
