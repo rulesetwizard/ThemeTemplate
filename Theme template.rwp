@@ -10,7 +10,7 @@
     <Website>www.rulesetwizard.com</Website>
     <Version>1</Version>
     <Release>0</Release>
-    <RulesetWizardVersion>0.8.7</RulesetWizardVersion>
+    <RulesetWizardVersion>0.8.8</RulesetWizardVersion>
     <RulesetList />
     <LoadOrder />
     <Comments />
@@ -553,6 +553,23 @@
     <InsideOffset />
   </Frames>
   <Frames>
+    <FrameName>moduleselectentry</FrameName>
+    <FolderID>3</FolderID>
+    <ImageFile>graphics\frames\fielddark.png</ImageFile>
+    <Definition>10,10,10,10</Definition>
+    <TopLeft />
+    <Top />
+    <TopRight />
+    <Left />
+    <Middle />
+    <Right />
+    <BottomLeft />
+    <Bottom />
+    <BottomRight />
+    <Decal />
+    <InsideOffset />
+  </Frames>
+  <Frames>
     <FrameName>partysheet</FrameName>
     <FolderID>3</FolderID>
     <ImageFile>graphics\frames\box1.png</ImageFile>
@@ -642,6 +659,40 @@
     <FolderID>3</FolderID>
     <ImageFile>graphics\frames\scrollbutton_normal.png</ImageFile>
     <Definition>0,5,0,5</Definition>
+    <TopLeft />
+    <Top />
+    <TopRight />
+    <Left />
+    <Middle />
+    <Right />
+    <BottomLeft />
+    <Bottom />
+    <BottomRight />
+    <Decal />
+    <InsideOffset />
+  </Frames>
+  <Frames>
+    <FrameName>search</FrameName>
+    <FolderID>3</FolderID>
+    <ImageFile>graphics\frames\search.png</ImageFile>
+    <Definition>22,5,5,5</Definition>
+    <TopLeft />
+    <Top />
+    <TopRight />
+    <Left />
+    <Middle />
+    <Right />
+    <BottomLeft />
+    <Bottom />
+    <BottomRight />
+    <Decal />
+    <InsideOffset />
+  </Frames>
+  <Frames>
+    <FrameName>search_active</FrameName>
+    <FolderID>3</FolderID>
+    <ImageFile>graphics\frames\search_active.png</ImageFile>
+    <Definition>22,5,5,5</Definition>
     <TopLeft />
     <Top />
     <TopRight />
@@ -1077,6 +1128,11 @@
     <IconName>roll_damage</IconName>
     <FolderID>4</FolderID>
     <IconFile>graphics\icons\roll_damage.png</IconFile>
+  </Icons>
+  <Icons>
+    <IconName>search</IconName>
+    <FolderID>4</FolderID>
+    <IconFile>graphics\icons\search.png</IconFile>
   </Icons>
   <Icons>
     <IconName>tabtop</IconName>
