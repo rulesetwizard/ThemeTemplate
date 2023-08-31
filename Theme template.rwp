@@ -10,7 +10,7 @@
     <Website>www.rulesetwizard.com</Website>
     <Version>1</Version>
     <Release>0</Release>
-    <RulesetWizardVersion>0.8.8</RulesetWizardVersion>
+    <RulesetWizardVersion>0.8.11</RulesetWizardVersion>
     <RulesetList />
     <LoadOrder />
     <Comments />
@@ -28,7 +28,7 @@
     <Announcement3 />
     <Announcement3Font />
     <Announcement3Icon />
-    <ExcludeRSWScripts>false</ExcludeRSWScripts>
+    <ExcludeRSWScripts>true</ExcludeRSWScripts>
     <CompileToFolder>false</CompileToFolder>
     <DefaultEncoding>iso-8859-1</DefaultEncoding>
   </RulesetProperties>
@@ -48,20 +48,30 @@
   <Folders>
     <ID>3</ID>
     <ParentFolderID>1</ParentFolderID>
-    <Folder>frames</Folder>
+    <Folder>desktop</Folder>
   </Folders>
   <Folders>
     <ID>4</ID>
     <ParentFolderID>1</ParentFolderID>
-    <Folder>icons</Folder>
+    <Folder>fonts</Folder>
   </Folders>
   <Folders>
     <ID>5</ID>
     <ParentFolderID>1</ParentFolderID>
-    <Folder>sidebar</Folder>
+    <Folder>frames</Folder>
   </Folders>
   <Folders>
     <ID>6</ID>
+    <ParentFolderID>1</ParentFolderID>
+    <Folder>icons</Folder>
+  </Folders>
+  <Folders>
+    <ID>7</ID>
+    <ParentFolderID>1</ParentFolderID>
+    <Folder>sidebar</Folder>
+  </Folders>
+  <Folders>
+    <ID>8</ID>
     <ParentFolderID>1</ParentFolderID>
     <Folder>tabs</Folder>
   </Folders>
@@ -71,14 +81,27 @@
 
 <DocumentElement xmlns="http://tempuri.org/Ruleset.xsd" />
 
-<DocumentElement xmlns="http://tempuri.org/Ruleset.xsd" />
+<DocumentElement xmlns="http://tempuri.org/Ruleset.xsd">
+  <Scripts>
+    <ScriptName>ThemeInit</ScriptName>
+    <FolderID>1</FolderID>
+    <Script>
+function onInit()
+	ColorManager.setSidebarRecordTextColor("000000");
+	ColorManager.setSidebarCategoryTextColor("FFFFFF");
+end
+</Script>
+    <RegisterScript>true</RegisterScript>
+    <Encoding />
+  </Scripts>
+</DocumentElement>
 
 <DocumentElement xmlns="http://tempuri.org/Ruleset.xsd" />
 
 <DocumentElement xmlns="http://tempuri.org/Ruleset.xsd">
   <Frames>
     <FrameName>border</FrameName>
-    <FolderID>3</FolderID>
+    <FolderID>5</FolderID>
     <ImageFile>C:\Desarrollo\Rulesets\RulesetTQ\skin\frames\border.png</ImageFile>
     <Definition>1,1,1,1</Definition>
     <TopLeft />
@@ -95,7 +118,7 @@
   </Frames>
   <Frames>
     <FrameName>buttondown</FrameName>
-    <FolderID>3</FolderID>
+    <FolderID>5</FolderID>
     <ImageFile>graphics\frames\buttondown.png</ImageFile>
     <Definition>10,10,10,10</Definition>
     <TopLeft />
@@ -112,7 +135,7 @@
   </Frames>
   <Frames>
     <FrameName>buttonup</FrameName>
-    <FolderID>3</FolderID>
+    <FolderID>5</FolderID>
     <ImageFile>graphics\frames\buttonup.png</ImageFile>
     <Definition>10,10,10,10</Definition>
     <TopLeft />
@@ -129,7 +152,7 @@
   </Frames>
   <Frames>
     <FrameName>calendar</FrameName>
-    <FolderID>3</FolderID>
+    <FolderID>5</FolderID>
     <ImageFile>graphics\frames\box1.png</ImageFile>
     <Definition>30,30,30,30</Definition>
     <TopLeft />
@@ -146,7 +169,7 @@
   </Frames>
   <Frames>
     <FrameName>charselect</FrameName>
-    <FolderID>3</FolderID>
+    <FolderID>5</FolderID>
     <ImageFile>graphics\frames\box1.png</ImageFile>
     <Definition>30,30,30,30</Definition>
     <TopLeft />
@@ -163,7 +186,7 @@
   </Frames>
   <Frames>
     <FrameName>charselectentry</FrameName>
-    <FolderID>3</FolderID>
+    <FolderID>5</FolderID>
     <ImageFile>graphics\frames\fielddark.png</ImageFile>
     <Definition>10,10,10,10</Definition>
     <TopLeft />
@@ -180,7 +203,7 @@
   </Frames>
   <Frames>
     <FrameName>charsheet</FrameName>
-    <FolderID>3</FolderID>
+    <FolderID>5</FolderID>
     <ImageFile>graphics\frames\box1.png</ImageFile>
     <Definition>30,30,30,30</Definition>
     <TopLeft />
@@ -197,7 +220,7 @@
   </Frames>
   <Frames>
     <FrameName>chatbox</FrameName>
-    <FolderID>3</FolderID>
+    <FolderID>5</FolderID>
     <ImageFile>graphics\frames\chatbox.png</ImageFile>
     <Definition>50,50,50,50</Definition>
     <TopLeft />
@@ -214,7 +237,7 @@
   </Frames>
   <Frames>
     <FrameName>chatentry</FrameName>
-    <FolderID>3</FolderID>
+    <FolderID>5</FolderID>
     <ImageFile>graphics\frames\chatentry.png</ImageFile>
     <Definition>2,3,2,3</Definition>
     <TopLeft />
@@ -231,7 +254,7 @@
   </Frames>
   <Frames>
     <FrameName>ct_groupbox</FrameName>
-    <FolderID>3</FolderID>
+    <FolderID>5</FolderID>
     <ImageFile>graphics\frames\fielddark.png</ImageFile>
     <Definition>10,10,10,10</Definition>
     <TopLeft />
@@ -248,7 +271,7 @@
   </Frames>
   <Frames>
     <FrameName>ctbox</FrameName>
-    <FolderID>3</FolderID>
+    <FolderID>5</FolderID>
     <ImageFile>graphics\frames\ctbox.png</ImageFile>
     <Definition>30,60,30,80</Definition>
     <TopLeft />
@@ -265,7 +288,7 @@
   </Frames>
   <Frames>
     <FrameName>ctentrybox</FrameName>
-    <FolderID>3</FolderID>
+    <FolderID>5</FolderID>
     <ImageFile>graphics\frames\ctentrybox.png</ImageFile>
     <Definition>35,5,5,5</Definition>
     <TopLeft />
@@ -282,7 +305,7 @@
   </Frames>
   <Frames>
     <FrameName>ctentrybox_active</FrameName>
-    <FolderID>3</FolderID>
+    <FolderID>5</FolderID>
     <ImageFile>graphics\frames\ctentrybox_active.png</ImageFile>
     <Definition>35,7,7,7</Definition>
     <TopLeft />
@@ -299,7 +322,7 @@
   </Frames>
   <Frames>
     <FrameName>ctentrybox_foe</FrameName>
-    <FolderID>3</FolderID>
+    <FolderID>5</FolderID>
     <ImageFile>graphics\frames\ctentrybox_foe.png</ImageFile>
     <Definition>35,5,5,5</Definition>
     <TopLeft />
@@ -316,7 +339,7 @@
   </Frames>
   <Frames>
     <FrameName>ctentrybox_foe_active</FrameName>
-    <FolderID>3</FolderID>
+    <FolderID>5</FolderID>
     <ImageFile>graphics\frames\ctentrybox_foe_active.png</ImageFile>
     <Definition>35,7,7,7</Definition>
     <TopLeft />
@@ -333,7 +356,7 @@
   </Frames>
   <Frames>
     <FrameName>ctentrybox_friend</FrameName>
-    <FolderID>3</FolderID>
+    <FolderID>5</FolderID>
     <ImageFile>graphics\frames\ctentrybox_friend.png</ImageFile>
     <Definition>35,5,5,5</Definition>
     <TopLeft />
@@ -350,7 +373,7 @@
   </Frames>
   <Frames>
     <FrameName>ctentrybox_friend_active</FrameName>
-    <FolderID>3</FolderID>
+    <FolderID>5</FolderID>
     <ImageFile>graphics\frames\ctentrybox_friend_active.png</ImageFile>
     <Definition>35,7,7,7</Definition>
     <TopLeft />
@@ -367,7 +390,7 @@
   </Frames>
   <Frames>
     <FrameName>ctentrybox_neutral</FrameName>
-    <FolderID>3</FolderID>
+    <FolderID>5</FolderID>
     <ImageFile>graphics\frames\ctentrybox_neutral.png</ImageFile>
     <Definition>35,5,5,5</Definition>
     <TopLeft />
@@ -384,7 +407,7 @@
   </Frames>
   <Frames>
     <FrameName>ctentrybox_neutral_active</FrameName>
-    <FolderID>3</FolderID>
+    <FolderID>5</FolderID>
     <ImageFile>graphics\frames\ctentrybox_neutral_active.png</ImageFile>
     <Definition>35,7,7,7</Definition>
     <TopLeft />
@@ -417,42 +440,8 @@
     <InsideOffset />
   </Frames>
   <Frames>
-    <FrameName>dicetower_drop</FrameName>
-    <FolderID>3</FolderID>
-    <ImageFile>graphics\frames\dicetower_drop.png</ImageFile>
-    <Definition>0,0,0,0</Definition>
-    <TopLeft />
-    <Top />
-    <TopRight />
-    <Left />
-    <Middle />
-    <Right />
-    <BottomLeft />
-    <Bottom />
-    <BottomRight />
-    <Decal />
-    <InsideOffset />
-  </Frames>
-  <Frames>
-    <FrameName>dicetower_normal</FrameName>
-    <FolderID>3</FolderID>
-    <ImageFile>graphics\frames\dicetower_normal.png</ImageFile>
-    <Definition>0,0,0,0</Definition>
-    <TopLeft />
-    <Top />
-    <TopRight />
-    <Left />
-    <Middle />
-    <Right />
-    <BottomLeft />
-    <Bottom />
-    <BottomRight />
-    <Decal />
-    <InsideOffset />
-  </Frames>
-  <Frames>
     <FrameName>fielddark</FrameName>
-    <FolderID>3</FolderID>
+    <FolderID>5</FolderID>
     <ImageFile>graphics\frames\fielddark.png</ImageFile>
     <Definition>10,10,10,10</Definition>
     <TopLeft />
@@ -468,25 +457,8 @@
     <InsideOffset />
   </Frames>
   <Frames>
-    <FrameName>fielddice</FrameName>
-    <FolderID>3</FolderID>
-    <ImageFile>graphics\frames\fielddice.png</ImageFile>
-    <Definition>0,0,0,0</Definition>
-    <TopLeft>0,0,12,12</TopLeft>
-    <Top>12,0,200,12</Top>
-    <TopRight>212,0,12,12</TopRight>
-    <Left>0,12,12,187</Left>
-    <Middle>12,12,200,187</Middle>
-    <Right>212,12,12,187</Right>
-    <BottomLeft>0,199,12,12</BottomLeft>
-    <Bottom>12,199,200,12</Bottom>
-    <BottomRight>212,199,12,12</BottomRight>
-    <Decal>175,212,49,16</Decal>
-    <InsideOffset />
-  </Frames>
-  <Frames>
     <FrameName>fieldlight</FrameName>
-    <FolderID>3</FolderID>
+    <FolderID>5</FolderID>
     <ImageFile>graphics\frames\fielddark.png</ImageFile>
     <Definition>10,10,10,10</Definition>
     <TopLeft />
@@ -503,7 +475,7 @@
   </Frames>
   <Frames>
     <FrameName>groupbox</FrameName>
-    <FolderID>3</FolderID>
+    <FolderID>5</FolderID>
     <ImageFile>graphics\frames\groupbox.png</ImageFile>
     <Definition>16,16,16,16</Definition>
     <TopLeft />
@@ -520,7 +492,7 @@
   </Frames>
   <Frames>
     <FrameName>imagebox</FrameName>
-    <FolderID>3</FolderID>
+    <FolderID>5</FolderID>
     <ImageFile>graphics\frames\box1.png</ImageFile>
     <Definition>30,30,30,30</Definition>
     <TopLeft />
@@ -537,7 +509,7 @@
   </Frames>
   <Frames>
     <FrameName>imagebox_header</FrameName>
-    <FolderID>3</FolderID>
+    <FolderID>5</FolderID>
     <ImageFile>graphics\frames\blank.png</ImageFile>
     <Definition>0,0,0,0</Definition>
     <TopLeft />
@@ -554,7 +526,7 @@
   </Frames>
   <Frames>
     <FrameName>moduleselectentry</FrameName>
-    <FolderID>3</FolderID>
+    <FolderID>5</FolderID>
     <ImageFile>graphics\frames\fielddark.png</ImageFile>
     <Definition>10,10,10,10</Definition>
     <TopLeft />
@@ -571,7 +543,7 @@
   </Frames>
   <Frames>
     <FrameName>partysheet</FrameName>
-    <FolderID>3</FolderID>
+    <FolderID>5</FolderID>
     <ImageFile>graphics\frames\box1.png</ImageFile>
     <Definition>30,30,30,30</Definition>
     <TopLeft />
@@ -588,7 +560,7 @@
   </Frames>
   <Frames>
     <FrameName>recordsheet</FrameName>
-    <FolderID>3</FolderID>
+    <FolderID>5</FolderID>
     <ImageFile>graphics\frames\box1.png</ImageFile>
     <Definition>30,30,30,30</Definition>
     <TopLeft />
@@ -605,7 +577,7 @@
   </Frames>
   <Frames>
     <FrameName>referencelist</FrameName>
-    <FolderID>3</FolderID>
+    <FolderID>5</FolderID>
     <ImageFile>graphics\frames\box1.png</ImageFile>
     <Definition>30,30,30,30</Definition>
     <TopLeft />
@@ -622,7 +594,7 @@
   </Frames>
   <Frames>
     <FrameName>referencepage</FrameName>
-    <FolderID>3</FolderID>
+    <FolderID>5</FolderID>
     <ImageFile>graphics\frames\box1.png</ImageFile>
     <Definition>30,30,30,30</Definition>
     <TopLeft />
@@ -639,7 +611,7 @@
   </Frames>
   <Frames>
     <FrameName>scrollbar_base</FrameName>
-    <FolderID>3</FolderID>
+    <FolderID>5</FolderID>
     <ImageFile>graphics\frames\scrollbar_base.png</ImageFile>
     <Definition>0,12,18,12</Definition>
     <TopLeft />
@@ -656,7 +628,7 @@
   </Frames>
   <Frames>
     <FrameName>scrollbutton_normal</FrameName>
-    <FolderID>3</FolderID>
+    <FolderID>5</FolderID>
     <ImageFile>graphics\frames\scrollbutton_normal.png</ImageFile>
     <Definition>0,5,0,5</Definition>
     <TopLeft />
@@ -673,7 +645,7 @@
   </Frames>
   <Frames>
     <FrameName>search</FrameName>
-    <FolderID>3</FolderID>
+    <FolderID>5</FolderID>
     <ImageFile>graphics\frames\search.png</ImageFile>
     <Definition>22,5,5,5</Definition>
     <TopLeft />
@@ -690,7 +662,7 @@
   </Frames>
   <Frames>
     <FrameName>search_active</FrameName>
-    <FolderID>3</FolderID>
+    <FolderID>5</FolderID>
     <ImageFile>graphics\frames\search_active.png</ImageFile>
     <Definition>22,5,5,5</Definition>
     <TopLeft />
@@ -707,7 +679,7 @@
   </Frames>
   <Frames>
     <FrameName>shortcuts</FrameName>
-    <FolderID>3</FolderID>
+    <FolderID>5</FolderID>
     <ImageFile>graphics\frames\shortcuts.png</ImageFile>
     <Definition>15,5,5,5</Definition>
     <TopLeft />
@@ -724,7 +696,7 @@
   </Frames>
   <Frames>
     <FrameName>sidebar_dock_category</FrameName>
-    <FolderID>5</FolderID>
+    <FolderID>7</FolderID>
     <ImageFile>graphics\sidebar\sidebar_dock_category.png</ImageFile>
     <Definition>10,10,10,10</Definition>
     <TopLeft />
@@ -741,7 +713,7 @@
   </Frames>
   <Frames>
     <FrameName>sidebar_dock_entry</FrameName>
-    <FolderID>5</FolderID>
+    <FolderID>7</FolderID>
     <ImageFile>graphics\sidebar\sidebar_dock_entry.png</ImageFile>
     <Definition>10,10,10,10</Definition>
     <TopLeft />
@@ -758,7 +730,7 @@
   </Frames>
   <Frames>
     <FrameName>sidebar_dock_entry_icon</FrameName>
-    <FolderID>5</FolderID>
+    <FolderID>7</FolderID>
     <ImageFile>graphics\sidebar\sidebar_dock_entry_icon.png</ImageFile>
     <Definition>10,10,10,10</Definition>
     <TopLeft />
@@ -775,7 +747,7 @@
   </Frames>
   <Frames>
     <FrameName>storybox</FrameName>
-    <FolderID>3</FolderID>
+    <FolderID>5</FolderID>
     <ImageFile>graphics\frames\box1.png</ImageFile>
     <Definition>30,30,30,30</Definition>
     <TopLeft />
@@ -792,7 +764,7 @@
   </Frames>
   <Frames>
     <FrameName>tabs</FrameName>
-    <FolderID>6</FolderID>
+    <FolderID>8</FolderID>
     <ImageFile>graphics\tabs\tabs.png</ImageFile>
     <Definition>0,0,0,0</Definition>
     <TopLeft>0,0,18,73</TopLeft>
@@ -809,7 +781,7 @@
   </Frames>
   <Frames>
     <FrameName>tabs_h</FrameName>
-    <FolderID>6</FolderID>
+    <FolderID>8</FolderID>
     <ImageFile>graphics\tabs\tabs_h.png</ImageFile>
     <Definition>0,0,0,0</Definition>
     <TopLeft>0,0,75,18</TopLeft>
@@ -826,7 +798,7 @@
   </Frames>
   <Frames>
     <FrameName>tokenbag</FrameName>
-    <FolderID>3</FolderID>
+    <FolderID>5</FolderID>
     <ImageFile>graphics\frames\box1.png</ImageFile>
     <Definition>30,30,30,30</Definition>
     <TopLeft />
@@ -843,7 +815,7 @@
   </Frames>
   <Frames>
     <FrameName>tokenbagasset</FrameName>
-    <FolderID>3</FolderID>
+    <FolderID>5</FolderID>
     <ImageFile>graphics\frames\fielddark.png</ImageFile>
     <Definition>10,10,10,10</Definition>
     <TopLeft />
@@ -860,7 +832,7 @@
   </Frames>
   <Frames>
     <FrameName>tooltipbox</FrameName>
-    <FolderID>3</FolderID>
+    <FolderID>5</FolderID>
     <ImageFile>graphics\frames\tooltipbox.png</ImageFile>
     <Definition>6,4,9,7</Definition>
     <TopLeft />
@@ -877,24 +849,7 @@
   </Frames>
   <Frames>
     <FrameName>utilitybox</FrameName>
-    <FolderID>3</FolderID>
-    <ImageFile>graphics\frames\box1.png</ImageFile>
-    <Definition>30,30,30,30</Definition>
-    <TopLeft />
-    <Top />
-    <TopRight />
-    <Left />
-    <Middle />
-    <Right />
-    <BottomLeft />
-    <Bottom />
-    <BottomRight />
-    <Decal />
-    <InsideOffset />
-  </Frames>
-  <Frames>
-    <FrameName>utilitybox3</FrameName>
-    <FolderID>3</FolderID>
+    <FolderID>5</FolderID>
     <ImageFile>graphics\frames\box1.png</ImageFile>
     <Definition>30,30,30,30</Definition>
     <TopLeft />
@@ -911,7 +866,7 @@
   </Frames>
   <Frames>
     <FrameName>windowtitle</FrameName>
-    <FolderID>3</FolderID>
+    <FolderID>5</FolderID>
     <ImageFile>graphics\frames\windowtitle.png</ImageFile>
     <Definition>50,0,50,0</Definition>
     <TopLeft />
@@ -1081,76 +1036,117 @@
   </Icons>
   <Icons>
     <IconName>charlist_base</IconName>
-    <FolderID>4</FolderID>
+    <FolderID>6</FolderID>
     <IconFile>graphics\icons\charlist_base.png</IconFile>
   </Icons>
   <Icons>
     <IconName>ct_active</IconName>
-    <FolderID>4</FolderID>
+    <FolderID>6</FolderID>
     <IconFile>graphics\icons\ct_active.png</IconFile>
   </Icons>
   <Icons>
+    <IconName>dicetower_drop</IconName>
+    <FolderID>3</FolderID>
+    <IconFile>graphics\desktop\dicetower_drop.png</IconFile>
+  </Icons>
+  <Icons>
+    <IconName>dicetower_normal</IconName>
+    <FolderID>3</FolderID>
+    <IconFile>graphics\desktop\dicetower_normal.png</IconFile>
+  </Icons>
+  <Icons>
     <IconName>field_rollable</IconName>
-    <FolderID>4</FolderID>
+    <FolderID>6</FolderID>
     <IconFile>graphics\buttons\field_rollable.png</IconFile>
   </Icons>
   <Icons>
+    <IconName>modcollector</IconName>
+    <FolderID>3</FolderID>
+    <IconFile>graphics\desktop\modcollector.png</IconFile>
+  </Icons>
+  <Icons>
+    <IconName>modcollector_counter</IconName>
+    <FolderID>3</FolderID>
+    <IconFile>graphics\desktop\modcollector_counter.png</IconFile>
+  </Icons>
+  <Icons>
     <IconName>portrait_gm_token</IconName>
-    <FolderID>4</FolderID>
+    <FolderID>6</FolderID>
     <IconFile>graphics\icons\portrait_gm_token.png</IconFile>
   </Icons>
   <Icons>
     <IconName>roll_attack</IconName>
-    <FolderID>4</FolderID>
+    <FolderID>6</FolderID>
     <IconFile>graphics\icons\roll_attack.png</IconFile>
   </Icons>
   <Icons>
     <IconName>roll_attack_crit</IconName>
-    <FolderID>4</FolderID>
+    <FolderID>6</FolderID>
     <IconFile>graphics\icons\roll_attack_crit.png</IconFile>
   </Icons>
   <Icons>
     <IconName>roll_attack_crit_miss</IconName>
-    <FolderID>4</FolderID>
+    <FolderID>6</FolderID>
     <IconFile>graphics\icons\roll_attack_crit_miss.png</IconFile>
   </Icons>
   <Icons>
     <IconName>roll_attack_hit</IconName>
-    <FolderID>4</FolderID>
+    <FolderID>6</FolderID>
     <IconFile>graphics\icons\roll_attack_hit.png</IconFile>
   </Icons>
   <Icons>
     <IconName>roll_attack_miss</IconName>
-    <FolderID>4</FolderID>
+    <FolderID>6</FolderID>
     <IconFile>graphics\icons\roll_attack_miss.png</IconFile>
   </Icons>
   <Icons>
     <IconName>roll_damage</IconName>
-    <FolderID>4</FolderID>
+    <FolderID>6</FolderID>
     <IconFile>graphics\icons\roll_damage.png</IconFile>
   </Icons>
   <Icons>
     <IconName>search</IconName>
-    <FolderID>4</FolderID>
+    <FolderID>6</FolderID>
     <IconFile>graphics\icons\search.png</IconFile>
   </Icons>
   <Icons>
     <IconName>tabtop</IconName>
-    <FolderID>6</FolderID>
+    <FolderID>8</FolderID>
     <IconFile>graphics\tabs\tabtop.png</IconFile>
   </Icons>
   <Icons>
     <IconName>tabtop_h</IconName>
-    <FolderID>6</FolderID>
+    <FolderID>8</FolderID>
     <IconFile>graphics\tabs\tabtop_h.png</IconFile>
   </Icons>
   <Icons>
     <IconName>token_empty</IconName>
-    <FolderID>4</FolderID>
+    <FolderID>6</FolderID>
     <IconFile>graphics\icons\token_empty.png</IconFile>
   </Icons>
 </DocumentElement>
 
-<DocumentElement xmlns="http://tempuri.org/Ruleset.xsd" />
+<DocumentElement xmlns="http://tempuri.org/Ruleset.xsd">
+  <Fonts>
+    <FontName>button-white</FontName>
+    <FolderID>4</FolderID>
+    <FontFile>graphics\fonts\NotoSans-Bold.ttf</FontFile>
+    <FontFamilyName>Noto Sans Bold</FontFamilyName>
+    <FontSize>16</FontSize>
+    <FontColor>255;255;255;255</FontColor>
+    <ShadowOffset />
+    <ShadowColor>0;0;0;0</ShadowColor>
+  </Fonts>
+  <Fonts>
+    <FontName>windowtitle</FontName>
+    <FolderID>4</FolderID>
+    <FontFile>graphics\fonts\NotoSans-Bold.ttf</FontFile>
+    <FontFamilyName>Noto Sans Bold</FontFamilyName>
+    <FontSize>24</FontSize>
+    <FontColor>255;0;0;0</FontColor>
+    <ShadowOffset />
+    <ShadowColor>0;0;0;0</ShadowColor>
+  </Fonts>
+</DocumentElement>
 
 </Ruleset>
