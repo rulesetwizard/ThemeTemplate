@@ -253,6 +253,40 @@ end
     <InsideOffset />
   </Frames>
   <Frames>
+    <FrameName>combobox_list</FrameName>
+    <FolderID>5</FolderID>
+    <ImageFile>graphics\frames\combobox_list.png</ImageFile>
+    <Definition>10,10,10,10</Definition>
+    <TopLeft />
+    <Top />
+    <TopRight />
+    <Left />
+    <Middle />
+    <Right />
+    <BottomLeft />
+    <Bottom />
+    <BottomRight />
+    <Decal />
+    <InsideOffset />
+  </Frames>
+  <Frames>
+    <FrameName>combobox_scrollbar</FrameName>
+    <FolderID>5</FolderID>
+    <ImageFile>graphics\frames\combobox_scrollbar.png</ImageFile>
+    <Definition>2,2,2,2</Definition>
+    <TopLeft />
+    <Top />
+    <TopRight />
+    <Left />
+    <Middle />
+    <Right />
+    <BottomLeft />
+    <Bottom />
+    <BottomRight />
+    <Decal />
+    <InsideOffset />
+  </Frames>
+  <Frames>
     <FrameName>ct_groupbox</FrameName>
     <FolderID>5</FolderID>
     <ImageFile>graphics\frames\fielddark.png</ImageFile>
@@ -491,6 +525,40 @@ end
     <InsideOffset />
   </Frames>
   <Frames>
+    <FrameName>hotkeybox</FrameName>
+    <FolderID>3</FolderID>
+    <ImageFile>graphics\desktop\hotkeybox.png</ImageFile>
+    <Definition>5,10,5,5</Definition>
+    <TopLeft />
+    <Top />
+    <TopRight />
+    <Left />
+    <Middle />
+    <Right />
+    <BottomLeft />
+    <Bottom />
+    <BottomRight />
+    <Decal />
+    <InsideOffset />
+  </Frames>
+  <Frames>
+    <FrameName>hotkeytitlebox</FrameName>
+    <FolderID>3</FolderID>
+    <ImageFile>graphics\desktop\hotkeytitlebox.png</ImageFile>
+    <Definition>5,5,5,5</Definition>
+    <TopLeft />
+    <Top />
+    <TopRight />
+    <Left />
+    <Middle />
+    <Right />
+    <BottomLeft />
+    <Bottom />
+    <BottomRight />
+    <Decal />
+    <InsideOffset />
+  </Frames>
+  <Frames>
     <FrameName>imagebox</FrameName>
     <FolderID>5</FolderID>
     <ImageFile>graphics\frames\box1.png</ImageFile>
@@ -712,9 +780,43 @@ end
     <InsideOffset />
   </Frames>
   <Frames>
+    <FrameName>sidebar_dock_category_down</FrameName>
+    <FolderID>7</FolderID>
+    <ImageFile>graphics\sidebar\sidebar_dock_category_down.png</ImageFile>
+    <Definition>10,10,10,10</Definition>
+    <TopLeft />
+    <Top />
+    <TopRight />
+    <Left />
+    <Middle />
+    <Right />
+    <BottomLeft />
+    <Bottom />
+    <BottomRight />
+    <Decal />
+    <InsideOffset />
+  </Frames>
+  <Frames>
     <FrameName>sidebar_dock_entry</FrameName>
     <FolderID>7</FolderID>
     <ImageFile>graphics\sidebar\sidebar_dock_entry.png</ImageFile>
+    <Definition>10,10,10,10</Definition>
+    <TopLeft />
+    <Top />
+    <TopRight />
+    <Left />
+    <Middle />
+    <Right />
+    <BottomLeft />
+    <Bottom />
+    <BottomRight />
+    <Decal />
+    <InsideOffset />
+  </Frames>
+  <Frames>
+    <FrameName>sidebar_dock_entry_down</FrameName>
+    <FolderID>7</FolderID>
+    <ImageFile>graphics\sidebar\sidebar_dock_entry_down.png</ImageFile>
     <Definition>10,10,10,10</Definition>
     <TopLeft />
     <Top />
@@ -1124,6 +1226,11 @@ end
     <FolderID>6</FolderID>
     <IconFile>graphics\icons\token_empty.png</IconFile>
   </Icons>
+  <Icons>
+    <IconName>window_resize</IconName>
+    <FolderID>6</FolderID>
+    <IconFile>graphics\icons\window_resize.png</IconFile>
+  </Icons>
 </DocumentElement>
 
 <DocumentElement xmlns="http://tempuri.org/Ruleset.xsd">
@@ -1135,6 +1242,16 @@ end
     <FontSize>16</FontSize>
     <FontColor>255;255;255;255</FontColor>
     <ShadowOffset />
+    <ShadowColor>0;0;0;0</ShadowColor>
+  </Fonts>
+  <Fonts>
+    <FontName>hotkey</FontName>
+    <FolderID>4</FolderID>
+    <FontFile>graphics\fonts\NotoSans-Bold.ttf</FontFile>
+    <FontFamilyName>Noto Sans</FontFamilyName>
+    <FontSize>16</FontSize>
+    <FontColor>255;255;255;255</FontColor>
+    <ShadowOffset>1,1</ShadowOffset>
     <ShadowColor>0;0;0;0</ShadowColor>
   </Fonts>
   <Fonts>
