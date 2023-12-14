@@ -10,7 +10,7 @@
     <Website>www.rulesetwizard.com</Website>
     <Version>1</Version>
     <Release>0</Release>
-    <RulesetWizardVersion>0.8.11</RulesetWizardVersion>
+    <RulesetWizardVersion>0.9.0</RulesetWizardVersion>
     <RulesetList />
     <LoadOrder />
     <Comments />
@@ -39,41 +39,49 @@
     <ID>1</ID>
     <ParentFolderID>0</ParentFolderID>
     <Folder>graphics</Folder>
+    <Exclude>false</Exclude>
   </Folders>
   <Folders>
     <ID>2</ID>
     <ParentFolderID>1</ParentFolderID>
     <Folder>buttons</Folder>
+    <Exclude>false</Exclude>
   </Folders>
   <Folders>
     <ID>3</ID>
     <ParentFolderID>1</ParentFolderID>
     <Folder>desktop</Folder>
+    <Exclude>false</Exclude>
   </Folders>
   <Folders>
     <ID>4</ID>
     <ParentFolderID>1</ParentFolderID>
     <Folder>fonts</Folder>
+    <Exclude>false</Exclude>
   </Folders>
   <Folders>
     <ID>5</ID>
     <ParentFolderID>1</ParentFolderID>
     <Folder>frames</Folder>
+    <Exclude>false</Exclude>
   </Folders>
   <Folders>
     <ID>6</ID>
     <ParentFolderID>1</ParentFolderID>
     <Folder>icons</Folder>
+    <Exclude>false</Exclude>
   </Folders>
   <Folders>
     <ID>7</ID>
     <ParentFolderID>1</ParentFolderID>
     <Folder>sidebar</Folder>
+    <Exclude>false</Exclude>
   </Folders>
   <Folders>
     <ID>8</ID>
     <ParentFolderID>1</ParentFolderID>
     <Folder>tabs</Folder>
+    <Exclude>false</Exclude>
   </Folders>
 </DocumentElement>
 
@@ -967,6 +975,40 @@ end
     <InsideOffset />
   </Frames>
   <Frames>
+    <FrameName>windowmenubar_button</FrameName>
+    <FolderID>5</FolderID>
+    <ImageFile>graphics\frames\windowmenubar_button.png</ImageFile>
+    <Definition>3,3,3,3</Definition>
+    <TopLeft />
+    <Top />
+    <TopRight />
+    <Left />
+    <Middle />
+    <Right />
+    <BottomLeft />
+    <Bottom />
+    <BottomRight />
+    <Decal />
+    <InsideOffset />
+  </Frames>
+  <Frames>
+    <FrameName>windowmenubar_button_down</FrameName>
+    <FolderID>5</FolderID>
+    <ImageFile>graphics\frames\windowmenubar_button_down.png</ImageFile>
+    <Definition>3,3,3,3</Definition>
+    <TopLeft />
+    <Top />
+    <TopRight />
+    <Left />
+    <Middle />
+    <Right />
+    <BottomLeft />
+    <Bottom />
+    <BottomRight />
+    <Decal />
+    <InsideOffset />
+  </Frames>
+  <Frames>
     <FrameName>windowtitle</FrameName>
     <FolderID>5</FolderID>
     <ImageFile>graphics\frames\windowtitle.png</ImageFile>
@@ -1265,5 +1307,7 @@ end
     <ShadowColor>0;0;0;0</ShadowColor>
   </Fonts>
 </DocumentElement>
+
+<DocumentElement xmlns="http://tempuri.org/Ruleset.xsd" />
 
 </Ruleset>
