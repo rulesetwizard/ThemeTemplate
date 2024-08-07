@@ -6,6 +6,7 @@
 function onInit()
 	ColorManager.setSidebarRecordTextColor("000000");
 	ColorManager.setSidebarCategoryTextColor("FFFFFF");
+	ColorManager.setSidebarRecordIconColor("000000");
 end
 </Script>
     <RegisterScript>true</RegisterScript>

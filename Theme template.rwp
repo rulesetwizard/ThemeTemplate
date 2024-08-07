@@ -10,7 +10,7 @@
     <Website>www.rulesetwizard.com</Website>
     <Version>1</Version>
     <Release>0</Release>
-    <RulesetWizardVersion>0.9.0</RulesetWizardVersion>
+    <RulesetWizardVersion>0.9.2</RulesetWizardVersion>
     <RulesetList />
     <LoadOrder />
     <Comments />
@@ -19,7 +19,7 @@
     <ImportRuleset>CoreRPG</ImportRuleset>
     <AdvancedDevelopment>true</AdvancedDevelopment>
     <GeneratePath />
-    <UseAutoPath>true</UseAutoPath>
+    <UseAutoPath>false</UseAutoPath>
     <AnnouncementFont />
     <AnnouncementIcon />
     <Announcement2 />
@@ -97,6 +97,7 @@
 function onInit()
 	ColorManager.setSidebarRecordTextColor("000000");
 	ColorManager.setSidebarCategoryTextColor("FFFFFF");
+	ColorManager.setSidebarRecordIconColor("000000");
 end
 </Script>
     <RegisterScript>true</RegisterScript>
